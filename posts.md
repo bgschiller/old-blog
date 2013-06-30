@@ -1,7 +1,8 @@
 ---
 layout: post-index
-permalink: /articles/index.html
-title: Articles
+permalink: /posts/index.html
+title: Posts
+categories: [code, writing]
 tagline: A List of Posts
 tags: [blog, graphic design]
 image:
