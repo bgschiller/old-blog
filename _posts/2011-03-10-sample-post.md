@@ -17,7 +17,7 @@ image:
 *  Auto generated table of contents
 {:toc}
 </div>
-</section><!-- /#table-of-contents -->
+</section>
 
 ## HTML Elements
 

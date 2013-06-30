@@ -1,7 +1,7 @@
 ---
 layout: post-index
 permalink: /code/index.html
-title: Code
+title: Deeds
 categories: [code]
 tagline: A List of Code posts
 tags: [blog, graphic design]
