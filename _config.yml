@@ -2,13 +2,13 @@ title:            Brian Schiller
 tagline:          "Programmer, Mathematician, and Perpetual Student"
 description:      The personal website of Brian Schiller.
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://bgschiller.github.io/bgschiller
+url:              http://bgschiller.github.io/bgschiller
 
 # Owner/author information
 owner:
   name:           Brian Schiller
   avatar:         bio-photo.jpg
-  bio:            "programmer, mathematician, and perpetual student"
+  bio:            "Programmer, Mathematician, and Perpetual Student"
   email:          bgschiller@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:        
@@ -22,21 +22,21 @@ owner:
   google_plus:    "https://plus.google.com/114086550463279742549"
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics: UA-42131022-1
+google_verify:    mQUlRVEMBNCjbcbdrXbSynwqXZ3ZlVrySqbb59PXCR8
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
 # Internal pages/posts to include in top navigation
 links:
-  - title: About
-    url: /about
-  - title: Words
-    url: /writing
-  - title: Deeds
-    url: /code
+  - title: Blog
+    url: /blog
+  - title: Work
+    url: /work
   - title: All Posts
     url: /posts
+  - title: About Me
+    url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Seattle
