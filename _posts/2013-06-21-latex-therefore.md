@@ -31,4 +31,34 @@ Wherever you would otherwise laboriously choose a synonym for 'Therefore', simpl
 \Therefore there are an infinite number of primes.
 ```
 
+#### Available Synonyms
+
+* Therefore,
+* Hence,
+* So,
+* It is trivial that
+* Clearly,
+* Behold!
+* Ergo,
+* And verily it goes that
+* Thus,
+* By logical extension,
+* And verily,
+* It is the will of the Gods that
+* We find
+* It can be shown that
+* It transpires that
+* As an exercise, prove that
+* Wherefore said He unto them,
+* As must be obvious to even the meanest intellect,
+* The power of logic reveals the conclusion that
+* This implies
+* As Gauss proved,
+* As Euler proved,
+* And it was handed down from the heavens that
+* It pleases the symmetry of the world that
+* Consequently,
+* Accordingly,
+* For this reason,
+
 
