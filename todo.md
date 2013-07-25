@@ -26,12 +26,14 @@
 
 ### Blog ###
 
-- [ ] muggles and base two
+- [/] muggles and base two
+  - [ ] spelling of Matt's name and link.
+  - [ ] include example of 1/2 and 1/4 wizards in first sentence ("like Dean Thomas", but replace Dean Thomas with a wizard who is actually 1/2 wizard).
 - [ ] reed solomon codes
 - [ ] newton's method fractals
 - [ ] putnam walkthroughs 
   - [ ] color each point in the plane one of three colors
-  - [ ] boxes problem
+  - [ ] boxes and balls problem
   - [ ] others?
 - [ ] Game explorations
   - [ ] No thanks
