@@ -8,4 +8,4 @@ image:
   feature: texture-feature-02.jpg
 ---
 
-I am a recent graduate of Western Washington University, where I studied Math and Computer Science. If you have a comment about the page, would like to see my resume, or anything else, please email me at schillb@students.wwu.edu.
+I am a recent graduate of Western Washington University, where I studied Math and Computer Science. I currently work at Nielsen as a Data Scientist. If you would like to get in touch, please email me at schillb@students.wwu.edu.

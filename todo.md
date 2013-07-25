@@ -12,9 +12,14 @@
 ### Work ###
 
 - [x] LaTeX class
-- [ ] Minishell (and sieve.msh)
+- [/] Minishell (and sieve.msh)
+  - [x] writeup
+  - [ ] screenshot and code listing for sieve.msh
 - [ ] Rayage
-- [ ] latex-therefore
+- [/] latex-therefore
+  - [x] writeup
+  - [ ] test therefore.sty link
+  - [ ] replace link to pdf with an embedded example.
 - [ ] Ninja Assassin Wonderwall
 - [ ] PrimeIterator
 - [ ] La Caja de Explosionadota (?)
