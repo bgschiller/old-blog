@@ -8,10 +8,12 @@ image:
   feature: texture-feature-04.jpg
 ---
 
-One day, my friend Matt Eshbach asked me, "So you can be 1/2 wizard, or 1/4 wizard. But can you be any proportion? What about 1/3?" The question turns out to have a really elegant answer, but let's work our way up to it. (Note: In order to simplify the math, we will not consider squibs or muggle-born wizards as part of the analysis. I hope those readers will not feel too marginalized by this decision).
+One day, my friend Matt Eschbach asked me, "So you can be 1/2 wizard, or 1/4 wizard. But can you be any proportion? What about 1/3?" The question turns out to have a really elegant answer, but let's work our way up to it. (Note: In order to simplify the math, we will not consider squibs or muggle-born wizards as part of the analysis. I hope those readers will not feel too marginalized by this decision).
 
-<figure>
-    <figcaption> Show the graphs for 1/2 and 1/4 wizard here. </figcaption>
+<figure class="half">
+    <img src="{{ site.url }}/images/wizards/half.jpg">
+    <img src="{{ site.url }}/images/wizards/quarter.jpg">
+    <figcaption> A possible parentage resulting in 1/2 and 1/4 wizards.</figcaption>
 </figure>
  
 
