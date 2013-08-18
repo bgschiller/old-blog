@@ -38,3 +38,7 @@
 - [ ] Game explorations
   - [ ] No thanks
   - [ ] Rush hour
+  - [ ] Set
+    - 33:1 odds that a set is on the board, but not always, surely? or maybe, because any two cards describes a set. (Is that a steiner triple system?)
+    - How many games clear every card?
+    - make an upper diagonal matrix describing, for every two cards, what is the third that completes the set.
