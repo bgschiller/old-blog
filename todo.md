@@ -29,7 +29,7 @@
 - [/] muggles and base two
   - [x] spelling of Matt's name and link.
   - [ ] include example of 1/2 and 1/4 wizards in first sentence ("like Dean Thomas", but replace Dean Thomas with a wizard who is actually 1/2 wizard).
-  - [ ] Add MathJax support http://cwoebker.com/posts/latex-math-magic
+  - [ ] Add MathJax support http://www.idryman.org/blog/2012/03/10/writing-math-equations-on-octopress/#fnref:1
 - [ ] reed solomon codes
 - [ ] newton's method fractals
 - [ ] putnam walkthroughs 
