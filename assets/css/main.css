@@ -2933,3 +2933,6 @@ img.mfp-img {
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   
 }
+
+.MathJax .mi {color: inherit} /* Fix collision with Pygments mi, mo selector */
+.MathJax .mo {color: inherit}
