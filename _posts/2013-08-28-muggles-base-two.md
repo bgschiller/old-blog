@@ -19,13 +19,13 @@ One day, my friend Matt Eschbach asked me, "So you can be 1/2 muggle-born, or 1/
  
 It is straightforward to come up with a lineage resulting in someone who is 1/2 muggle, such as Seamus Finnegan, or even 1/4 muggle. In fact, any fraction of the form \\(\dfrac{a}{2^n}\\), where \\(a\\) is an integer has some lineage that produces it. To see why, consider 13/16.
 
-<figure>
+<figure class="seventy" >
     <img src="{{ site.url }}/images/muggles/three_sixteenths.jpg">
 </figure>
 
 This isn't the only way a person could end up 13/16 muggle. For example, the parentage below would also work. However, it's not as neat. For one thing, it has more people in the picture. Also, it is repetitive: the grandparent who is 1/4 muggle is the child of two great-grandparents, each 1/4 muggle.
 
-<figure>
+<figure class="seventy" >
     <img src="{{ site.url }}/images/muggles/three_sixteenths_alt.jpg">
 </figure>
 
@@ -50,12 +50,14 @@ If you were paying close attention, you may have noticed that I didn't include 1
 \\]
 The binary form tells us that in order to be 13/16 muggle-born, we need \\(\frac{1}{2} + \frac{1}{4} + \frac{0}{8} + \frac{1}{16}\\) of the ancestry to be of muggle origin. In other words, we need 1 parent, 1 additional grandparent, no additional great-grandparents, and 1 additional great-great-grandparent.
 
-<figure>
+<figure class="seventy">
     <img src="{{ site.url }}/images/muggles/three_sixteenths_num.jpg">
 </figure>
 
-
-
-
-
+### So what about 1/3?
+We'll use the trick we've developed and look at the binary representation of the fraction. To write 1/3 in binary, we need to keep writing 1s and 0s forever. Specifically, 
+\\[
+\frac{1}{3} = 0.01010101010\ldots\_2 = \frac{0}{2} + \frac{1}{4} + \frac{0}{8} + \frac{1}{16} + \ldots
+\\]
+A wizard who was 1/3 muggle-born would need to have an infinite ancestry!
 

@@ -11,7 +11,7 @@ owner:
   bio:            "Programmer, Mathematician, and Perpetual Student"
   email:          bgschiller@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        
+  twitter:        "bgschiller"
   facebook:       "bgschiller"
   github:         "bgschiller"
   linkedin:       "bgschiller"
@@ -39,7 +39,7 @@ links:
     url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/Seattle
+timezone:    America/Chicago
 future:      true
 pygments:    true
 markdown:    kramdown
