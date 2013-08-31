@@ -4,12 +4,11 @@ title: Muggles and Base Two
 description: "You can be half muggle, quarter muggle, or even 13/16 muggle. But can you be 1/3 muggle?"
 category: blog
 tags: [math, wizards, fun, muggles]
-latex: true
 image:
-  feature: texture-feature-04.jpg
+  feature: hogwarts-express.jpeg
 ---
 
-One day, my friend Matt Eschbach asked me, "So you can be 1/2 muggle-born, or 1/4 muggle-born. But can you be any proportion? What about 1/3?" The question turns out to have a really elegant answer, but let's work our way up to it. (Note: In order to simplify the math, we will not consider squibs or muggle-born wizards as part of the analysis. I hope those readers will not feel too marginalized by this decision.)
+One day, my friend Matt Eschbach asked me, "So you can be 1/2 muggle-born, or 1/4 muggle-born. But can you be any proportion? What about 1/3?" The question turns out to have a really elegant answer, but let's work our way up to it. (Note: In order to simplify the math, we will not consider squibs as part of the analysis. I hope those readers will not feel too marginalized by this decision.)
 
 <figure class="half">
     <img src="{{ site.url }}/images/muggles/half.jpg">
@@ -21,21 +20,35 @@ It is straightforward to come up with a lineage resulting in someone who is 1/2 
 
 <figure class="seventy" >
     <img src="{{ site.url }}/images/muggles/three_sixteenths.jpg">
+    <figcaption> A lineage resulting in a wizard who is 13/16 muggle </figcaption>
 </figure>
 
 This isn't the only way a person could end up 13/16 muggle. For example, the parentage below would also work. However, it's not as neat. For one thing, it has more people in the picture. Also, it is repetitive: the grandparent who is 1/4 muggle is the child of two great-grandparents, each 1/4 muggle.
 
 <figure class="seventy" >
     <img src="{{ site.url }}/images/muggles/three_sixteenths_alt.jpg">
+    <figcaption> A more complicated lineage, also resulting in a wizard who is 13/16 muggle</figcaption>
 </figure>
 
 Since two parents who are each 1/4 muggle will have children who are 1/4 muggle, this can go on and on-- farther back than even Bathilda Bagshot can keep track! So let's stick to the minimal lineage.
 
 <figure>
     <img src="{{ site.url }}/images/muggles/three_sixteenths_alt2.jpg">
+    <figcaption> A lineage so complicated not even Bathilda Bagshot can keep track.</figcaption>
 </figure>
 
-But *what* (Ron might ask) does any of this have to do with base 2? Well, it's not much more than the fact that we each have two parents. And each of those parents has two grandparents. And... so on. At level \\(n\\), the number of ancestors you have is \\(2^n\\). So if you're looking for a person who is 13/16 muggle-born, you need someone for whom 13 of their 16 great-great-grandparents were muggles.
+But *what* (Ron might ask) does any of this have to do with base 2? Well, it's not much more than the fact that we each have two parents. And each of those parents has two parents. And... so on. At level \\(n\\), the number of ancestors you have is \\(2^n\\). So if you're looking for a person who is 13/16 muggle-born, you need someone for whom 13 of their 16 great-great-grandparents were muggles.
+
+Maybe it's easier to look at it from another perspective. Let's go back up the family tree far enough that everyone on that level is either 100% wizard, or 100% muggle. Consider Miracle Max, a wizard at this level on the family tree. Max can see into the future, and wants to calculate what his contribution to his descendants' wizardliness will be.
+
+<figure>
+    <img src="{{ site.url }}/images/muggles/miracle_max.jpg">
+    <figcaption>Great-great-great grandad Miracle Max and his wife Valerie.</figcaption>
+</figure>
+
+His children will derive half of the wizardliness from him (and half from his wife Valerie). Those children will pass along half again of that half to their own kids. Miracle Max's descendants will get 1/2, 1/4, 1/8, ... of his wizardliness. Those numbers are all of the form \\(\frac{1}{2^n}\\). 
+
+This is true for *each* ancestor at this level: they contribute \\(\frac{1}{2^n}\\) to your wizardliness. Your total wizardliness is the sum of all these contributions. If we add up a bunch of \\(\frac{1}{2^n}\\) terms, the result will have the form \\(\frac{a}{2^n}\\), or 'some number over a power of two'.
 
 ### A Refresher on Fractional Binary
 
@@ -52,6 +65,7 @@ The binary form tells us that in order to be 13/16 muggle-born, we need \\(\frac
 
 <figure class="seventy">
     <img src="{{ site.url }}/images/muggles/three_sixteenths_num.jpg">
+    <figcaption>The binary representation of 13/16 corresponds to a simple way to draw the family tree of someone who is 13/16</figcaption>
 </figure>
 
 ### So what about 1/3?

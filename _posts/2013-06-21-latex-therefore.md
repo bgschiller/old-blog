@@ -23,7 +23,7 @@ lucasvb: Someone should collect these into a macro.
     <figcaption>As an example, here is a proof that \(\sqrt{2} \) is irrational</figcaption>
 </figure>
 
-Using the package is easy. Download the file [therefore.sty](https://github.com/bgschiller/latex-therefore/blob/master/therefore.sty). In the preamble of your LaTeX document, enter
+Using the package is easy. Download the file [therefore.sty](https://raw.github.com/bgschiller/latex-therefore/master/therefore.sty). In the preamble of your LaTeX document, enter
 
 ```latex
 \usepackage{therefore}

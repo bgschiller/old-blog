@@ -1,10 +1,10 @@
 ---
 layout: post-index
 permalink: /blog/index.html
-title: Words
-tagline: A List of Blog posts
+title: Blog
+tagline: Thoughts on math, programming, and life.
 categories: [blog, writing]
-tags: [blog, graphic design]
+tags: [blog]
 image:
-  feature: texture-feature-03.jpg
+  feature: texture-feature-writing.jpg
 ---

@@ -9,7 +9,8 @@ owner:
   name:           Brian Schiller
   avatar:         bio-photo.jpg
   bio:            "Programmer, Mathematician, and Perpetual Student"
-  email:          bgschiller@gmail.com
+  #email obfuscated using unicode: http://andrew.hedges.name/experiments/obfuscator/
+  email:          "&#98;&#103;&#115;&#99;&#104;&#105;&#108;&#108;&#101;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:        "bgschiller"
   facebook:       "bgschiller"
