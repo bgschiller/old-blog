@@ -5,6 +5,7 @@ description: "LaTeX is a markup language that's particularly useful for typesett
 modified: 2013-07-01
 category: work
 tags: [intro, beginner, latex, teaching, wwu]
+comments: true
 image:
   feature: texture-feature-05.jpg
   thumb: latex-presentation-wf.jpg

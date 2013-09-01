@@ -5,6 +5,7 @@ description: "As part of the UNIX Systems class at WWU, each student makes a bas
 modified: 2013-07-24
 category: work
 tags: [unix, minishell, c, shell, wwu]
+comments: true
 image:
   feature: texture-feature-05.jpg
   thumb: latex-presentation-wf.jpg

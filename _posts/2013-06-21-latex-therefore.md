@@ -5,6 +5,7 @@ description: "This LaTeX package alleviates the constant struggle in mathematica
 modified: 2013-07-24
 category: work
 tags: [latex, proofs, math, fun]
+comments: true
 image:
   feature: texture-feature-05.jpg
 ---
