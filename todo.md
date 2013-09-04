@@ -6,8 +6,8 @@
 - [x] maybe change "code, writing" to "blog, work" (more general)
 - [ ] add feature thumbnails to post-index pages.
 - [x] fix and obfuscate email.
-- [ ] favicons
-- [ ] change default_thumb for twitter, open graph support. 
+- [x] favicons
+- [x] change default_thumb for twitter, open graph support. 
 - [ ] bing verify
 
 ## Posts ##
