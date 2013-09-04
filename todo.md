@@ -5,8 +5,10 @@
 - [ ] change the feature backgrounds
 - [x] maybe change "code, writing" to "blog, work" (more general)
 - [ ] add feature thumbnails to post-index pages.
-- [ ] fix and obfuscate email.
+- [x] fix and obfuscate email.
 - [ ] favicons
+- [ ] change default_thumb for twitter, open graph support. 
+- [ ] bing verify
 
 ## Posts ##
 
