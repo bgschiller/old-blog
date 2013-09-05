@@ -1,7 +1,7 @@
 # Todo #
 
-- [ ] improve the about me/resume page
-- [ ] make an About This Website page, possibly linked to in the footer
+- [x] improve the about me/resume page
+- [x] make an About This Website page, possibly linked to in the footer
 - [ ] change the feature backgrounds
 - [x] maybe change "code, writing" to "blog, work" (more general)
 - [ ] add feature thumbnails to post-index pages.

@@ -2940,3 +2940,9 @@ img.mfp-img {
 
 .MathJax .mi {color: inherit} /* Fix collision with Pygments mi, mo selector */
 .MathJax .mo {color: inherit}
+
+.meta {
+  font-size: 80%;
+  margin-top: 0px;
+  color: #666666
+}
