@@ -3,7 +3,7 @@ layout: post
 title: Muggles and Base Two
 description: "You can be half muggle, quarter muggle, or even 13/16 muggle. But can you be 1/3 muggle?"
 category: blog
-tags: [math, wizards, fun, muggles]
+tags: [math, wizards, fun, muggles, teaching]
 comments: true
 image:
   feature: hogwarts-express.jpeg

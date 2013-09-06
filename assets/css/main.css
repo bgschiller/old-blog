@@ -866,7 +866,6 @@ figcaption:before {
 }
 /* Blockquote =========================================== */
 blockquote {
-  font-style: italic;
   margin-left: 0;
   padding-left: 1em;
   border-left: 10px solid #ccc;
