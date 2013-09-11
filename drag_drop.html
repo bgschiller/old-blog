@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>jQuery UI Draggable - Events</title>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+
+<!-- With much help from http://www.elated.com/articles/drag-and-drop-with-jquery-your-essential-guide/ -->
+  <script>
+    var numBoxes = 4;
+    var n_ball_multiplier = 1;
+    var boxes = new Array();
+
+    function init(){
+        $('#successMessage').hide()
+        $('#successMessage').css( {
+            left: '580px',
+            top: '250px',
+            width: 0,
+            height: 0
+        } );
+
+        for(var ix=0; ix<numBoxes; ix++){
+            boxes.push($('<div class="box"></div>').data( 'box_id', ix ).attr( 'id', 'box'+ix ).appendTo( '#boxes-container' ).droppable({
+              //accept: 'div.ballGroup',
+              hoverClass: 'hovered',
+              drop: handleBallDrop
+            } ));
+        }
+
+        for(var ix=0; ix<numBoxes*n_ball_multiplier; ix++){
+            var destBox = randomChoice(boxes);
+            $('<div class="ball"></div>').appendTo( destBox ).draggable( {
+                containment: '#content',
+                stack: '#boxes-container div',
+                cursor: 'move',
+                revert: true
+            } );
+
+
+        }
+    }
+
+    function randomChoice(arr){
+        return arr[Math.floor(Math.random()*arr.length)];
+    }
+
+    function handleBallDrop( event, ui ){
+        var dest_box_num = $('this').data( 'box_id' );
+        var source_box_num = ui.draggable.closest(".box").data("box_id");
+        
+
+    }
+  </script>
+</head>
+<body>
+
+<div id="four-boxes-game">
+    <div id="boxes-container"></div>
+    <div id="successMessage">
+        <h2>You did it!</h2>
+        <button onclick="init()">Play Again</button>
+  </div>
+</div>
+ 
+ 
+</body>
+</html>

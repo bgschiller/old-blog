@@ -52,4 +52,11 @@ Okay, so my worst enemy could be stacking the deck against me, setting things up
 
 It's a little hard to visualize 2010 boxes, so lets go with something smaller. How about four? 
 
-<!--picture of four labeled boxes here.--> 
+<figure>
+    <img src="{{ site.url }}/images/boxes/fourboxes.jpg">
+    <figcaption>Four is _definitely_ smaller than 2010</figcaption>
+</figcaption>
+
+So now we're trying to distribute \\(4n\\) balls evenly among the boxes.
+
+
