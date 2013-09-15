@@ -7,7 +7,6 @@ tags: [math, putnam, teaching]
 image:
   feature: texture-feature-02.jpg
   thumb: all-the-balls2.jpg
-putnam_boxes_head: true
 ---
 
 School starts soon at my alma mater, [WWU](http://www.wwu.edu/). For me, Fall quarter always meant I would be taking the Putnam Exam, regarded as one of the most difficult (or _the_ most difficult) math competitions for undergraduates. It consists of two three-hour sessions with six problems each. Most years, the median score on the exam is zero out of 120 points.
@@ -51,32 +50,11 @@ Okay, so my worst enemy could be stacking the deck against me, setting things up
 
 ### A smaller version of the same problem
 
-It's a little hard to visualize 2010 boxes, so lets go with something smaller. How about four? 
+It's a little hard to visualize 2010 boxes, so lets go with something smaller. How about five? Play with the demo below for a bit. You can move \\(i\\) balls from box \\(B\_i\\) by dragging them to another box. Can you get all of the balls distributed evenly? If you can, try lowering the 'Ball Multiplier' (that's the \\(n\\) from the \\(5n\\) balls we're working with).
 
 <figure>
-    <img src="{{ site.url }}/images/boxes/fourboxes.jpg">
-    <figcaption>Four is _definitely_ smaller than 2010</figcaption>
-</figcaption>
+    <iframe src="{{ site.url }}/extras/putnam_boxes_demo.html" width="100%" class="auto-height" style="min-width:513px;"></iframe>
+    <figcaption>If you want to play with the number of boxes, this demo is <a href="{{ site.url }}/extras/putnam_boxes_demo.html" target="_blank">also available here</a>, where it has a bit more room to breathe.</figcaption>
+</figure>
 
-So now we're trying to distribute \\(4n\\) balls evenly among the boxes.
-
-<div id="four-boxes-game">
-    <label for="ball_multiplier">
-      Ball Multiplier:
-      <input type="text" id="ball_multiplier" size="2" value="2"/>
-    </label>
-    &nbsp;
-    &nbsp;
-    <label for="num_boxes">
-      Number of boxes:
-      <input type="text" id="num_boxes" size="2" value="4"/>
-    </label>
-    &nbsp;
-    &nbsp;
-    <button onclick="init();">New Game</button>
-    <div class="wrapper" id="boxes-container"></div>
-    <div id="successMessage">
-        <h2>You did it!</h2>
-        <button onclick="init()">Play Again</button>
-    </div>
-</div>
+So now we're trying to distribute \\(5n\\) balls evenly among the boxes.

@@ -1,5 +1,6 @@
 <html lang="en">
 <head>
+  <!-- My css and javascript skills are still fledgling. Beware reading this source, as it may hurt your eyes.-->
   <meta charset="utf-8" />
   <title>jQuery UI Draggable - Events</title>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
@@ -22,9 +23,6 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef8d69', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
 
   }
-  .box {
-    position:relative;
-  }
 
   .green-ball {
 background: #299a0b; /* Old browsers */
@@ -40,9 +38,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', end
 
   .box{
     float:left; 
-    width:100px;
-    height:100px;
-    margin:10px;
+    width:80px;
+    height:80px;
+    margin:8px;
+    position:relative;
   }
 
 .circle
@@ -75,7 +74,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', end
 <!-- With much help from http://www.elated.com/articles/drag-and-drop-with-jquery-your-essential-guide/ -->
   <script>
     var numBoxes = 5;
-    var n_ball_multiplier = 2;
+    var n_ball_multiplier = 3;
 
     $(init);
 
@@ -84,13 +83,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', end
         $('#successMessage').css( {
             left: '580px',
             top: '250px',
-            width: 0,
-            height: 0
+            /*width: 0,
+            height: 0*/
         } );
 
         //reset the game
         $('#boxes-container').html('');
-
+        console.log(numBoxes);
         numBoxes = $('#num_boxes').val();
         if (numBoxes > 8){
           numBoxes = 8;
@@ -173,26 +172,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', end
   </script>
 </head>
 <body>
-
 <div id="four-boxes-game">
+      <div id="successMessage">
+        You did it!
+        <button onclick="init()">Play Again</button>
+    </div>
     <label for="ball_multiplier">
       Ball Multiplier:
-      <input type="text" id="ball_multiplier" size="2" value="2"/>
+      <input type="text" id="ball_multiplier" size="2" value="3"/>
     </label>
     &nbsp;
     &nbsp;
     <label for="num_boxes">
       Number of boxes:
-      <input type="text" id="num_boxes" size="2" value="4"/>
+      <input type="text" id="num_boxes" size="2" value="5"/>
     </label>
     &nbsp;
     &nbsp;
     <button onclick="init();">New Game</button>
     <div class="wrapper" id="boxes-container"></div>
-    <div id="successMessage">
-        <h2>You did it!</h2>
-        <button onclick="init()">Play Again</button>
-    </div>
 </div>
  
  
