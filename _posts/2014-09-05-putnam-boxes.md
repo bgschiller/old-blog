@@ -7,6 +7,7 @@ tags: [math, putnam, teaching]
 image:
   feature: texture-feature-02.jpg
   thumb: all-the-balls2.jpg
+putnam_boxes_head: true
 ---
 
 School starts soon at my alma mater, [WWU](http://www.wwu.edu/). For me, Fall quarter always meant I would be taking the Putnam Exam, regarded as one of the most difficult (or _the_ most difficult) math competitions for undergraduates. It consists of two three-hour sessions with six problems each. Most years, the median score on the exam is zero out of 120 points.
@@ -59,4 +60,23 @@ It's a little hard to visualize 2010 boxes, so lets go with something smaller. H
 
 So now we're trying to distribute \\(4n\\) balls evenly among the boxes.
 
-
+<div id="four-boxes-game">
+    <label for="ball_multiplier">
+      Ball Multiplier:
+      <input type="text" id="ball_multiplier" size="2" value="2"/>
+    </label>
+    &nbsp;
+    &nbsp;
+    <label for="num_boxes">
+      Number of boxes:
+      <input type="text" id="num_boxes" size="2" value="4"/>
+    </label>
+    &nbsp;
+    &nbsp;
+    <button onclick="init();">New Game</button>
+    <div class="wrapper" id="boxes-container"></div>
+    <div id="successMessage">
+        <h2>You did it!</h2>
+        <button onclick="init()">Play Again</button>
+    </div>
+</div>
