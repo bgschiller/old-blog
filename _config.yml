@@ -41,7 +41,7 @@ links:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Chicago
-future:      true #don't publish posts prematurely.
+future:      false #don't publish posts prematurely.
 pygments:    true
 markdown:    kramdown
 
