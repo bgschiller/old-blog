@@ -157,7 +157,7 @@ So now we can say with surety, the greatest number of balls you can have where i
 We now know how many balls we need to have. But if you remember back, the question asked "For which values of \\(n\\)" is it possible to rearrange the balls. So we have \\(2010n\\) balls, and we need \\(2010n > 2019045 \\). Dividing both sides by 2010, we get \\(n > 1004.5\\). If \\(n\\) has to be an integer (we can't put 1004 *and one half* balls in each box!), we get \\(n \\geq 1005\\).
 
 <figure>
-    <img src="{{ site.url }}/images/all_the_balls.png">
+    <img src="{{ site.url }}/images/all-the-balls.png">
     <figcaption>No half balls here</figcaption>
 </figure>
 
