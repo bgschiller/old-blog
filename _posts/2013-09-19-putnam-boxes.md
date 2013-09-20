@@ -25,7 +25,7 @@ So far, so good.
 
 > ... and \\(2010n\\) balls have been distributed among them, for some positive integer \\(n\\).
 
-Okay, so if \\(n\\) is 2, for example, there are 4020 boxes. And all the balls are in some box or other.
+Okay, so if \\(n\\) is 2, for example, there are 4020 balls. And all the balls are in some box or other.
 
 <figure>
     <img src="{{ site.url }}/images/all-the-balls2.png">
