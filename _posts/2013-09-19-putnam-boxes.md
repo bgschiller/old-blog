@@ -6,7 +6,7 @@ category: blog
 tags: [math, putnam, teaching]
 image:
   feature: texture-feature-02.jpg
-  thumb: all-the-balls2.jpg
+  thumb: all-the-balls2.png
 ---
 
 School starts soon at my alma mater, [WWU](http://www.wwu.edu/). For me, Fall quarter always meant I would be taking the Putnam Exam, regarded as one of the most difficult (or _the_ most difficult) math competitions for undergraduates. It consists of two three-hour sessions with six problems each. Most years, the median score on the exam is zero out of 120 points.
