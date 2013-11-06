@@ -33,6 +33,8 @@
   - [x] spelling of Matt's name and link.
   - [x] include example of 1/2 and 1/4 wizards in first sentence ("like Dean Thomas", but replace Dean Thomas with a wizard who is actually 1/2 wizard).
   - [x] Add MathJax support http://www.idryman.org/blog/2012/03/10/writing-math-equations-on-octopress/#fnref:1
+- [ ] Different test curving methods and how they affect students.
+- [ ] 1-1 correspondence with the Natural numbers: filenames in alphabetical order 0, 1, -1, 2, -2
 - [ ] reed solomon codes
 - [ ] newton's method fractals
 - [ ] putnam walkthroughs 
