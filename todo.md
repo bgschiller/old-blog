@@ -57,3 +57,4 @@ permalink: /todo.html
     - make an upper diagonal matrix describing, for every two cards, what is the third that completes the set.
 - [ ] Statistics Vocabulary- why does every field need its own?
 - [ ] Eenie meenie miney mo and the Chinese Remainder Theorem. what position should I take to win?
+- [ ] Why do they have the bad ranch dressing on Fridays? (An exploration of confounding variables and hidden causes)
