@@ -43,7 +43,7 @@ links:
 timezone:    America/Chicago
 future:      false #don't publish posts prematurely.
 pygments:    true
-markdown:    kramdown
+markdown:    redcarpet
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   date
