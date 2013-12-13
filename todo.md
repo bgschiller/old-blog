@@ -14,10 +14,11 @@ permalink: /todo.html
 - [x] favicons
 - [x] change default_thumb for twitter, open graph support. 
 - [ ] bing verify
+- [ ] Change 'Work' to 'Code'
 
 ## Posts ##
 
-### Work ###
+### Code ###
 
 - [x] LaTeX class
 - [x] Minishell (and sieve.msh)
@@ -33,6 +34,7 @@ permalink: /todo.html
 - [ ] La Caja de Explosionadota (?)
 - [ ] Webhooks one-night project: crontab server/ ticktock/:
   - Users submit url, schedule, the webserver GETs or POSTs at that url according to the schedule.
+- [ ] Correct way to add arguments in Python subclass
 
 ### Blog ###
 
