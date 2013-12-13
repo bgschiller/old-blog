@@ -51,7 +51,8 @@ On [wikipedia](http://en.wikipedia.org/wiki/Pseudorandom_number_generator), you 
 That means that no adversary -- a program that, given the earlier bits of a sequence, tries to predict the next one -- should do better than a random guesser. 
 
 <figure>
-    <a href="http://xkcd.com/1210/"><img src="{{ site.url }}/images/xkcd_1210_im_so_random.png"></a>
+    <img src="{{ site.url }}/images/xkcd_1210_im_so_random.png">
+    <figcaption>Source: <a href="http://xkcd.com/1210/">http://xkcd.com/1210/</a></figcaption>
 </figure>
 
 We'll use a more relaxed criteria today. I want to see if the adversary from [this page](http://www.loper-os.org/bad-at-entropy/manmach.html) can do better than expected. 
