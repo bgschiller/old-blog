@@ -42,7 +42,7 @@ permalink: /todo.html
   - [x] spelling of Matt's name and link.
   - [x] include example of 1/2 and 1/4 wizards in first sentence ("like Dean Thomas", but replace Dean Thomas with a wizard who is actually 1/2 wizard).
   - [x] Add MathJax support 
-- [ ] Different test curving methods and how they affect students.
+- [x] Different test curving methods and how they affect students.
 - [ ] 1-1 correspondence with the Natural numbers: filenames in alphabetical order 0, 1, -1, 2, -2
 - [ ] reed solomon codes
 - [ ] newton's method fractals
@@ -60,3 +60,6 @@ permalink: /todo.html
 - [ ] Statistics Vocabulary- why does every field need its own?
 - [ ] Eenie meenie miney mo and the Chinese Remainder Theorem. what position should I take to win?
 - [ ] Why do they have the bad ranch dressing on Fridays? (An exploration of confounding variables and hidden causes)
+- [ ] Programmers' tools and the gap between user and programmer culture. Also, shared IPython shells with Sagemath Cloud vs Google Docs.
+  - http://software-carpentry.org/blog/2013/12/tools-conversations-and-cultures.html 
+  - http://www.randalolson.com/2013/11/02/sagemath-cloud-makes-collaborating-with-ipython-notebooks-easier-than-ever/
