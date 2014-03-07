@@ -5,7 +5,7 @@ description: "Disappointed by the lack of an official Facebook app for your Mac?
 category: blog
 tags: [programming, fun, facebook]
 image:
-  feature: chinatown_thread.jpg
+  feature: texture-feature-cobbles.jpg
 ---
 
 Some time ago, my (now) mother-in-law switched to a mac. She had already been using an iPhone for a while, so it was a familiar interface. One thing that was unfamiliar: there's no Facebook app! 
@@ -15,7 +15,7 @@ It does seem a serious oversight on Facebook's part. Well, luckily it's not too 
 Open up a terminal and type `open https://www.facebook.com`. Facebook should open in a new tab in your default browser. Great! 
 
 <figure>
-    <img src="{{ site.url }}/images/facebook_tutorial/mvp.png">
+    <img src="{{ site.url }}/images/fbt/mvp.png">
     <figcaption>Looks like we've got our minimum viable product!</figcaption>
 </figure>
 
@@ -28,14 +28,14 @@ do shell script "open https://www.facebook.com"
 It should look like this:
 
 <figure>
-    <img src="{{ site.url }}/images/facebook_tutorial/applescript.png">
+    <img src="{{ site.url }}/images/fbt/applescript.png">
     <figcaption>Not only is the code clean, but it scales well too.</figcaption>
 </figure>
 
 Now save that file, but where it says File Format, choose Application.
 
 <figure>
-	<img src="{{ site.url }}/images/facebook_tutorial/save_applescript.png">
+	<img src="{{ site.url }}/images/fbt/save_applescript.png">
 </figure>
 
 This is a working application &mdash; try opening it. Facebook should spring fully-formed into your web browser. We could ship this now, but I think it lacks a certain aesthetic touch.
@@ -43,13 +43,13 @@ This is a working application &mdash; try opening it. Facebook should spring ful
 Find a nice looking version of the facebook logo. Here's one that's 800x800 pixels:
 
 <figure>
-	<img src="{{ site.url }}/images/facebook_tutorial/fb_logo.png">
+	<img src="{{ site.url }}/images/fbt/fbl.png">
 </figure>
 
 Open up this logo, select-all (⌘ + a), and copy (⌘ + c). Now right-click (or control-click) your app, and choose 'Get Info'. 
 
 <figure>
-	<img src="{{ site.url }}/images/facebook_tutorial/get_info_highlight.png">
+	<img src="{{ site.url }}/images/fbt/get_info_highlight.png">
 </figure>
 
 Click the icon in the top left corner. This should give it a blue border, indicating that it's highlighted. Now paste the logo (⌘ + v). Close out of the 'Get Info' window, and you're done!
