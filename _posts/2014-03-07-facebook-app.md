@@ -55,6 +55,10 @@ Open up this logo, select-all (⌘ + a), and copy (⌘ + c). Now right-click (or
 Click the icon in the top left corner. This should give it a blue border, indicating that it's highlighted. Now paste the logo (⌘ + v). Close out of the 'Get Info' window, and you're done!
 
 All joking aside, this is could be a useful technique for setting up a computer for a relative who's not very computer-savvy. You can even drag the icon to the dock to make it easy to find.
+<figure>
+	<img src="{{ site.url }}/images/fbt/dock.png">
+</figure>
+
 <br>
 <br>
 As promised, a link for the lazy: <a href="{{ site.url }}/extras/facebook.zip" class="btn">download the facebook app</a>
