@@ -60,6 +60,10 @@ permalink: /todo.html
 - [ ] Statistics Vocabulary- why does every field need its own?
 - [ ] Eenie meenie miney mo and the Chinese Remainder Theorem. what position should I take to win?
 - [ ] Why do they have the bad ranch dressing on Fridays? (An exploration of confounding variables and hidden causes)
+- [ ] Should I pick up the big apples or the little apples? Sphere packing
 - [ ] Programmers' tools and the gap between user and programmer culture. Also, shared IPython shells with Sagemath Cloud vs Google Docs.
   - http://software-carpentry.org/blog/2013/12/tools-conversations-and-cultures.html 
   - http://www.randalolson.com/2013/11/02/sagemath-cloud-makes-collaborating-with-ipython-notebooks-easier-than-ever/
+- [ ] Wemux and ngrok for pair programming
+- [ ] 250 cakes Hamiltonian path (and geocoding)
+- [ ] Testing Django view functions with a mock_session
