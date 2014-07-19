@@ -42,7 +42,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Chicago
 future:      false #don't publish posts prematurely.
-pygments:    true
+highlighter:    pygments
 markdown:    redcarpet
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
