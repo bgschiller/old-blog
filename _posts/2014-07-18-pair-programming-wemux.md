@@ -22,11 +22,7 @@ This will be at a pretty high level, but more details are available on [Martin's
   - On OS X, turn on `Remote Login` in the System Preferences.
   - edit your `sshd_config` to prevent password login.
 3. Install `tmux` and `wemux`. On OS X, this is just `brew install tmux wemux` as long as you have [homebrew](http://brew.sh/) installed.
-4. Change `pair`'s `.bashrc` to be 
-
-```wemux pair; exit```
-
-When the `pair` user logs in, they will join a `wemux` session right away, and log out (`exit`) immediately after leaving it. This keeps folks from doing insidious things on your computer. For example, they might add `echo 'say penguin' >> ~/.bashrc` to your `~/.bashrc`. By keeping them in `wemux`, you can see everything they're doing on your computer.
+4. Change `pair`'s `.bashrc` to be `wemux pair; exit`. When the `pair` user logs in, they will join a `wemux` session right away, and log out (`exit`) immediately after leaving it. This keeps folks from doing insidious things on your computer. For example, they might add `echo 'say penguin' >> ~/.bashrc` to your `~/.bashrc`. By keeping them in `wemux`, you can see everything they're doing on your computer.
 
 ### Pairing
 
