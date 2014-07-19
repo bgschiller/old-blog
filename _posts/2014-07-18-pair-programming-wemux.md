@@ -22,19 +22,23 @@ This will be at a pretty high level, but more details are available on [Martin's
   - On OS X, turn on `Remote Login` in the System Preferences.
   - edit your `sshd_config` to prevent password login.
 3. Install `tmux` and `wemux`. On OS X, this is just `brew install tmux wemux` as long as you have [homebrew](http://brew.sh/) installed.
-4. Change user `pair`'s `.bashrc` to be `wemux pair; exit`. This means that whenever the `pair` user logs in, they will join a wemux session right away, and log out (`exit`) immediately after leaving it. This keeps folks from doing insidious things on your computer. (For example, they might add `echo 'say penguin' >> ~/.bashrc` to your `~/.bashrc`.)
+4. Change `pair`'s `.bashrc` to be 
+
+```wemux pair; exit```
+
+When the `pair` user logs in, they will join a `wemux` session right away, and log out (`exit`) immediately after leaving it. This keeps folks from doing insidious things on your computer. For example, they might add `echo 'say penguin' >> ~/.bashrc` to your `~/.bashrc`. By keeping them in `wemux`, you can see everything they're doing on your computer.
 
 ### Pairing
 
-This is where the `ngrok` secret sauce comes in. Up to now, our configuration has been the same as [Martin's](http://martinbrochhaus.com/pair.html). However, we won't set up port forwarding on our router (maybe you're at work, or a coffeeshop or an airplane and don't have access to the router). Instead, we'll use a 'Secure tunnel to localhost`, provided by `ngrok`.
+This is where the `ngrok` secret sauce comes in. Up to now, our configuration has been the same as [Martin's](http://martinbrochhaus.com/pair.html). However, we won't set up port forwarding on our router (maybe you're at work, or a coffeeshop or an airplane and don't have access to the router). Instead, we'll use a 'Secure tunnel to localhost' provided by `ngrok`.
 
-You'll have to download [ngrok](https://ngrok.com/) and put it somewhere on your `PATH`. Now, just run `ngrok -proto=tcp 22`, which says "Make a TCP tunnel to my local port 22". Port 22 is where ssh usually runs. You should get a screen like below.
+You'll have to download [ngrok](https://ngrok.com/) and put it somewhere on your `PATH`. Now, run `ngrok -proto=tcp 22`, which says "Make a TCP tunnel to my local port 22". Port 22 is where ssh usually runs. You should get a screen like below.
 
 ![ngrok screen]({{ site.url }}/images/ngrok.png)
 
 > You may have to create an account and authenticate your computer in order to use `-proto=tcp`. Don't worry &mdash; it's free.
 
-I happened to get port `35731`. This number will be different every time. Now, start a wemux session by opening a new terminal window and typing `wemux start`. Because of what we put in `pair`'s `.bashrc` file, the `pair` user won't be able to stay logged in without a `wemux` session running. Give it a try, as soon as you end `wemux` (with `Ctrl-D`), any users attached over ssh will be immediately logged out.
+I happened to get port `35731`. This number will be different every time. Now, start a wemux session by opening a new terminal window and typing `wemux start`. Because of what we put in `pair`'s `.bashrc` file, the `pair` user won't be able to stay logged in without a `wemux` session running. Give it a try, as soon as you end `wemux` (by typing `exit` or `Ctrl-D`), any users attached over ssh will be immediately logged out.
 
 Now that you have `wemux` and `ngrok` running, have your colleague log on using `ssh -p 35731 pair@ngrok.com`. The connection will be forwarded from ngrok.com straight to your local computer.
 
